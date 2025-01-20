@@ -1,0 +1,103 @@
+/* Contact Section */
+
+/* Contact Us */
+.contact-section{
+  width: 60%;
+}
+.Contact-us{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.contact-list{
+    list-style: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* margin-top: 20px; */
+}
+.contact-list:hover{
+    /* color: blue; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.phone-no{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.phone-no:hover{
+  color: #808080;
+}
+.email{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.email:hover{
+  color: grey;
+}
+.whatsapp{
+  margin-top: 10px;
+  font-size: 20px;
+}
+.whatsapp:hover{
+  color: #808080;
+}
+.get{
+  font-size: 50px;
+}
+.input-group-text-1{
+    border-radius: 10px;
+    border-color: black;
+    /* width: 200%; */
+}
+.form-control-1{
+    border-radius: 10px;
+    border-color: transparent;
+    width: 120%;
+    margin-right: 40px;
+}
+.form-control-2{
+    border-radius: 10px;
+    border-color: transparent;
+    width: 150%;
+    margin-left: 70px;
+}
+#message{
+    border-color: transparent;
+}
+.button-submit{
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 40%;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button-submit:hover{
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
+/*icon styling */
+.number:hover{
+    text-decoration: underline;
+    color: #808080;
+    cursor: pointer;
+}
+.email-3{
+    margin-left: 17%;
+}
+.email-address:hover{
+    text-decoration: underline;
+    color: #808080;
+    cursor: pointer;
+}
+.location-1{
+    margin-left: 23%;
+}
+.location-2:hover{
+    text-decoration: underline;
+    color: #808080;
+    cursor: pointer;
+}

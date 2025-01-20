@@ -1,0 +1,33 @@
+/* About section */
+
+#welcome_statement{
+  font-size: 25px;
+  color: grey;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.read-more{
+  color: #fff;
+  background-color: #000;
+  border-radius: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  width: 17%;
+  height: 18%;
+  margin-bottom: 10px;
+}
+.read-more:hover{
+  background-color: #fff;
+  color: #000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+
+.weekly_activities{
+  color: rgb(150, 150, 150);
+}
+
+/* about header text */
+.About-header-text{
+  font-size: 70px;
+  font-family:serif;
+}

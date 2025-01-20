@@ -1,0 +1,29 @@
+/* Navbar */
+.dtn-btn{
+    background-color: crimson;
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 23px;
+    font-family:'Times New Roman', Times, serif;
+}
+.dtn-btn:hover{
+    background-color: slategray;
+    font-family: cursive;
+    font-size: 20px;
+}
+.nav-link{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+.nav-link:hover{
+    font-family: cursive;
+    font-size: 21px;
+    color: slateblue;
+}
+.donate-link{
+    text-decoration: none;
+    color: #fff;
+}

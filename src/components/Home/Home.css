@@ -1,0 +1,223 @@
+/* Carousel */
+/* Style the carousel container */
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 30%;
+  /* Adjust as needed */
+  overflow: visible;
+}
+
+/* Style the carousel item */
+.carousel-item {
+  position: relative;
+}
+
+/* Style the image */
+.carousel-image {
+  display: block;
+  width: 100%;
+  filter: brightness(60%); /* Darkens the image */
+/* Smooth transition for hover effects */
+}
+
+/* Optional: Restore brightness on hover */
+.carousel-item:hover .carousel-image {
+  /* filter: brightness(70%); */
+}
+
+/* Style the caption container */
+.carousel-caption {
+  position: absolute;
+  /* display: block; */
+  z-index: 10;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  text-align: center;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  padding: 10px 20px;
+  border-radius: 5px;
+  /* overflow: visible; */
+  width: 80%; /* Adjust as needed */
+}
+
+/* Style caption text */
+.carousel-caption h2 {
+  margin: 0 0 5px;
+  font-size: 70px;
+  display: block;
+  font-family:cursive;
+}
+
+.carousel-caption h3 {
+  margin: 0;
+  font-size: 60px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: slategrey;
+  opacity: 0.8;
+  background-color: rgba(89, 89, 90, 0.123);
+}
+
+/* About section */
+/* .about-section{
+  padding: 250px 100px;
+  background-color: #f8f9fa;
+  min-height: 100vh; 
+} */
+ 
+#welcome_statement{
+  font-size: 25px;
+  color: grey;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.read-more{
+  color: #808080;
+  background-color: #000;
+  border-radius: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  width: 17%;
+  height: 18%;
+  margin-bottom: 10px;
+}
+.read-more:hover{
+  background-color: #fff;
+  color: #000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+.weekly_activities{
+  color: rgb(150, 150, 150);
+}
+
+.read-more-about{
+  text-decoration: none;
+  color: #808080;
+}
+/* .read-more-about:hover{
+  background-color: #000;
+} */
+
+/* Contact Us */
+.contact-section{
+  width: 60%;
+}
+.Contact-us{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.contact-list{
+    list-style: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* margin-top: 20px; */
+}
+.contact-list:hover{
+    /* color: blue; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.phone-no{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.phone-no:hover{
+  color: #808080;
+}
+.email{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.email:hover{
+  color: grey;
+}
+.whatsapp{
+  margin-top: 10px;
+  font-size: 20px;
+}
+.whatsapp:hover{
+  color: #808080;
+}
+.get{
+  font-size: 50px;
+}
+.input-group-text-1{
+    border-radius: 10px;
+    border-color: black;
+    /* width: 200%; */
+}
+.form-control-1{
+    border-radius: 10px;
+    border-color: transparent;
+    width: 120%;
+    margin-right: 40px;
+}
+.form-control-2{
+    border-radius: 10px;
+    border-color: transparent;
+    width: 150%;
+    margin-left: 70px;
+}
+#message{
+    border-color: transparent;
+}
+.button-submit{
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 40%;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button-submit:hover{
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
+.welcome{
+  font-family:cursive;
+  font-style: italic;
+  font-size: 60px;
+}
+.baze-christian-fellowship{
+  letter-spacing: 5px;
+  font-size: 50px;
+  /* box-shadow: 5px 5px 5px 5px #a3a2a2; */
+  opacity: 0.5;
+}
+.online-platform{
+  font-style:normal;
+  font-weight: 700;
+}
+/* Links to socials */
+.socials-1{
+  text-decoration: none;
+  color: #fff;
+  background: #000;
+  width:25%;
+  /* height: 0%; */
+  border-radius: 20px;
+  font-family: cursive;
+}
+
+.socials-2{
+  text-decoration: none;
+  color: #fff;
+  background: #000;
+  width: 25%;
+  /* height: 60%; */
+  /* height: 30%; */
+  border-radius: 20px;
+  font-family: cursive;
+}
+
+.socials{
+  text-align: center;
+  justify-content: space-evenly;
+  font-size: 25px;
+}

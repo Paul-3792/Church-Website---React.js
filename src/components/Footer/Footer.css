@@ -1,0 +1,41 @@
+/* Background */
+.footer{
+    background-color: #000;
+}
+/* Explore */
+.explore_list{
+    list-style-type: none;
+    font-style: italic;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.home:hover{
+    color: #808080;
+    cursor: pointer;
+}
+.about:hover{
+    color: #808080;
+    cursor: pointer;
+}
+.audio:hover{
+    color: #808080;
+    cursor: pointer;
+}
+.department:hover{
+    color: #808080;
+    cursor: pointer;
+}
+.contact:hover{
+    color: #808080;
+    cursor: pointer;
+}
+hr{
+    color: white;
+}
+.footer-links2{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-links2:hover{
+    color: grey;
+}
